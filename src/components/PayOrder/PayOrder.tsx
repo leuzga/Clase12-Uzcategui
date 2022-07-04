@@ -40,17 +40,17 @@ const PayOrder = () => {
     formState: { errors },
   } = useForm({
     resolver: yupResolver(schema),
-    defaultValues:{
-      firstName: "Lenin",
-      lastName: "Uzcategui",
-      email: "leuzga@gmail.com",
-      numberPhone: "+569590872",
-      street: "San Juan",
-      nroStreet: "1234",
-      city: "Santiago",
-      country: "Chile",
-      zipCode: "8500000"
-  }   
+//     defaultValues:{
+//       firstName: "Lenin",
+//       lastName: "Uzcategui",
+//       email: "leuzga@gmail.com",
+//       numberPhone: "+569590872",
+//       street: "San Juan",
+//       nroStreet: "1234",
+//       city: "Santiago",
+//       country: "Chile",
+//       zipCode: "8500000"
+//   }   
   });
 
   const db = getFirestore();
